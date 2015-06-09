@@ -28,10 +28,7 @@ public class ball : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (transform.position.y < -10) {
-			transform.position = new Vector3 (0f, 0f, 0f);
-			transform.rotation = Quaternion.Euler (0f, 0f,130f);
-			GM.lives--;
+
 		}
 
 
