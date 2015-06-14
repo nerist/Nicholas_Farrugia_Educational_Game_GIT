@@ -35,6 +35,7 @@ public class ball : MonoBehaviour {
 		}
 
 
+
 	}
 	
 	IEnumerator destroyEnemy()
